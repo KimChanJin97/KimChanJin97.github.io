@@ -10,10 +10,10 @@ html {
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    margin-left: 30px;
-    padding-left: 30px;
+    margin-left: 100px;
+    padding-left: 100px;
     font-family: 'Dongle', sans-serif;
     background-color: black;
     color: whitesmoke;
