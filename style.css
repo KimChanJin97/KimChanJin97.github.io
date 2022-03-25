@@ -58,9 +58,10 @@ img {
     margin-left: 20px;
 }
 
-.left {
+.left div {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
     width: 500px;
     background-color: black;
     float: left;
