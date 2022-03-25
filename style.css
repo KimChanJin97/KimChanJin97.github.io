@@ -7,21 +7,9 @@ body {
     height: 100vh;
     margin: 0;
     padding-bottom: 20;
-    font-family: 'RocknRoll One', sans-serif;
+    font-family: 'Dongle', sans-serif;
     background-color: black;
     color: whitesmoke;
-}
-
-#videobcg { 
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1000;
-    overflow: hidden;
 }
 
 .iframebox {
@@ -36,7 +24,26 @@ body {
     height: 100%;
 }
 
+.iframeaud iframe {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.ileft {
+    background-color: black;
+    float: left;
+    padding-right: 10px;
+}
+
+.iright {
+    width: 1200px;
+}
+
 .main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -48,6 +55,7 @@ img {
 .cover div{
     display: inline-block;
     height: 400px;
+    margin-left: 20px;
 }
 
 .left {
