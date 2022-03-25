@@ -53,6 +53,8 @@ img {
 }
 
 .imgs img {
+    width: 300px;
+    height: 300px;
     margin-bottom: 30px;
     margin-right: 50px;
     display: flex;
