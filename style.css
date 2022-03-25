@@ -2,11 +2,17 @@ html {
     box-sizing: border-box;
 }
 
+head {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    padding-bottom: 20;
+    padding-left: 30px;
+    padding-bottom: 30px;
     font-family: 'Dongle', sans-serif;
     background-color: black;
     color: whitesmoke;
@@ -44,8 +50,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .imgs img{
