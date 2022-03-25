@@ -52,9 +52,19 @@ img {
     margin-bottom: 20px;
 }
 
+.imgs img {
+    margin-bottom: 30px;
+    margin-right: 50px;
+    display: flex;
+}
+
 .cover div{
     display: inline-block;
     height: 400px;
+    margin-left: 20px;
+}
+
+.bigfont font {
     margin-left: 20px;
 }
 
